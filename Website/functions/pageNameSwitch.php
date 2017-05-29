@@ -6,17 +6,20 @@ switch ($currentPageTitle) {
     case "index.php":
         $title = "Home";
         break;
-    case "products.php":
-        $title = "Producten";
+    case "coaching.php":
+        $title = "Coaching";
         break;
-    case "offers.php":
-        $title = "Acties";
+    case "contact.php":
+        $title = "Contact";
         break;
-    case "events.php":
-        $title = "Evenementen";
+    case "blog.php":
+        $title = "Blog/Vlog";
         break;
-    case "create_event.php":
-        $title = "Evenement Maken";
+    case "zusje.php":
+        $title = "Zusje";
+        break;
+    case "nieuws.php":
+        $title = "Nieuwsblad";
         break;
     default:
         $title = "Somewhere";
